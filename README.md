@@ -1,5 +1,6 @@
 # Sort Benchmarking Results
 
+```
 >> go test -bench=.
 goos: darwin
 goarch: amd64
@@ -28,3 +29,4 @@ BenchmarkMergeSort1000000-8         	2000000000	         0.09 ns/op
 BenchmarkMergeSort10000000-8        	       1	2028252351 ns/op
 PASS
 ok  	_/Users/nerdy.wink/projects/allocations/go/src/sort	34.509s
+```
