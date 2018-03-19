@@ -1,5 +1,7 @@
 # Sort Benchmarking Results
 
+* the numbers in front of test name is the number of integers used for benchmarking
+
 ```
 >> go test -bench=.
 goos: darwin
